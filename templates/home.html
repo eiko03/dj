@@ -1,7 +1,8 @@
 {% extends 'layout.html' %}
 {% block content %}
 <h1>Test {{ new }}</h1>
-    <form action="add">
+    <form action="add" method="POST">
+    {% csrf_token %}
         <label>New:</label>
         <input type="number" name="num1">
         <label>New:</label>
