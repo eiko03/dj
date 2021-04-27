@@ -1,2 +1,2 @@
 # dj-test
-Testing out dj and mtv
+Testing dj and mtv
